@@ -314,12 +314,16 @@ img {
     .proyecto__card {
         grid-template-columns: 100%;
     }
+    .card__blog {
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+    .card__blog__contenedor__informacion {
+        gap: 20px;
+    }
     .proyecto__card__contenedor__informacion {
         gap: 20px;
     }
-    /* .contenedor__main__progresos {
-        grid-template-columns: 1fr;
-    } */
 }
 
 @media screen and (max-width: 1000px) {
