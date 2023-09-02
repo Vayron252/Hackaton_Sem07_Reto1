@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <div class="contenedor">
+        <aside class="contenedor__aside">
+            <!-- Tarjeta perfil -->
+            <div class="contenedor__aside__perfil tarjeta">
+                <div class="perfil__contenedor_foto">
+                    <img src="./images/profile.jpg" alt="perfil-foto">
+                </div>
+                <h1 class="perfil__nombre titulo-card">Billy Pearson</h1>
+                <p class="perfil__cargo">Front-end developer</p>
+                <div class="perfil__contenedor__email">
+                    <i class="fas fa-envelope"></i>
+                    <p>billy@example.com</p>
+                </div>
+                <div class="perfil__contenedor__telefono">
+                    <i class="fas fa-phone"></i>
+                    <p>(+603) 546 624 342</p>
+                </div>
+                <p class="pefil__descripcion">Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
+            </div>
+            <!-- Tarjeta experiences -->
+            <div class="contenedor__aside__experiences tarjeta">
+                <div class="experiences__tarjeta">
+                    <div class="experiences__contenedor__imagen">
+                        <h2 class="experiences__titulo titulo-card">Experiences</h2>
+                        <div class="experiences__cards">
+                            <article class="experiences__cards__tarjeta">
+                                <div class="tarjeta__contenedor__imagen">
+                                    <img src="./images/adidas.png" alt="img-adidas">
+                                </div>
+                                <div class="tarjeta__contendor_informacion">
+                                    <p class="tarjeta__contenedor_informacion__fecha">Feb 2017 - Current</p>
+                                    <h3 class="tarjeta__contenedor__informacion__rotulo">Front-end developer</h3>
+                                    <p class="tarjeta__contenedor__informacion__descripcion">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                                </div>
+                            </article>
+                            <article class="experiences__cards__tarjeta">
+                                <div class="tarjeta__contenedor__imagen">
+                                    <img src="./images/h&m.png" alt="img-adidas">
+                                </div>
+                                <div class="tarjeta__contendor_informacion">
+                                    <p class="tarjeta__contenedor_informacion__fecha">Aug 2016 - Feb 2018</p>
+                                    <h3 class="tarjeta__contenedor__informacion__rotulo">Full-stack developer</h3>
+                                    <p class="tarjeta__contenedor__informacion__descripcion">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                                </div>
+                            </article><article class="experiences__cards__tarjeta">
+                                <div class="tarjeta__contenedor__imagen">
+                                    <img src="./images/nivea.png" alt="img-adidas">
+                                </div>
+                                <div class="tarjeta__contendor_informacion">
+                                    <p class="tarjeta__contenedor_informacion__fecha">Jun 2015 - Aug 2016</p>
+                                    <h3 class="tarjeta__contenedor__informacion__rotulo">Junior front-end developer</h3>
+                                    <p class="tarjeta__contenedor__informacion__descripcion">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta hobbies -->
+            <div class="contenedor__aside__hobbies tarjeta">
+                <h2 class="hobbies__titulo titulo-card">Hobbies</h2>
+                <div class="hobbies__cards">
+                    <article class="hobbies__cards__tarjeta">
+                        <div class="tarjeta__contenedor__imagen">
+                            <img src="./images/hobbie01.jpg" alt="img-hobbie">
+                        </div>
+                        <h3 class="tarjeta__rotulo__imagen">Gaming</h3>
+                        <p class="tarjeta__descripcion__imagen">Quisque feugiat malesuada molestie.</p>
+                    </article>
+                    <article class="hobbies__cards__tarjeta">
+                        <div class="tarjeta__contenedor__imagen">
+                            <img src="./images/hobbie02.jpg" alt="img-hobbie">
+                        </div>
+                        <h3 class="tarjeta__rotulo__imagen">Cooking</h3>
+                        <p class="tarjeta__descripcion__imagen">Quisque feugiat malesuada molestie.</p>
+                    </article>
+                    <article class="hobbies__cards__tarjeta">
+                        <div class="tarjeta__contenedor__imagen">
+                            <img src="./images/hobbie03.jpg" alt="img-hobbie">
+                        </div>
+                        <h3 class="tarjeta__rotulo__imagen">Biking</h3>
+                        <p class="tarjeta__descripcion__imagen">Quisque feugiat malesuada molestie.</p>
+                    </article>
+                </div>
+            </div>
+        </aside>
+        <main class="contenedor__main">
+            <!-- Tarjetas Progresos -->
+            <div class="contenedor__main__progresos">
+                <div class="contenedor__progreso__skills tarjeta">
+                    <h2 class="skills__titulo">Front end</h2>
+                    <div class="skills__listado">
+                        <div class="skills__listado__item">
+                            <p class="skills__listado__item__titulo">React</p>
+                            <progress class="skills__listado__item__avance" max="100" value="70"></progress>
+                        </div>
+                        <div class="skills__listado__item">
+                            <p class="skills__listado__item__titulo">Javascript</p>
+                            <progress class="skills__listado__item__avance" max="100" value="80"></progress>
+                        </div>
+                        <div class="skills__listado__item">
+                            <p class="skills__listado__item__titulo">CSS</p>
+                            <progress class="skills__listado__item__avance" max="100" value="90"></progress>
+                        </div>
+                        <div class="skills__listado__item">
+                            <p class="skills__listado__item__titulo">Vue</p>
+                            <progress class="skills__listado__item__avance" max="100" value="60"></progress>
+                        </div>
+                        <div class="skills__listado__item">
+                            <p class="skills__listado__item__titulo">Redux</p>
+                            <progress class="skills__listado__item__avance" max="100" value="80"></progress>
+                        </div>
+                        <div class="skills__listado__item">
+                            <p class="skills__listado__item__titulo">React Native</p>
+                            <progress class="skills__listado__item__avance" max="100" value="90"></progress>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor__progreso__skills tarjeta">
+                    <h2 class="skills__titulo">Design</h2>
+                    <div class="skills__listado">
+                        <div class="skills__listado__item">
+                            <p class="skills__listado__item__titulo">Figma</p>
+                            <progress class="skills__listado__item__avance" max="100" value="70"></progress>
+                        </div>
+                        <div class="skills__listado__item">
+                            <p class="skills__listado__item__titulo">Photoshop</p>
+                            <progress class="skills__listado__item__avance" max="100" value="80"></progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Titulos Proyectos -->
+            <div class="seccion__titulos tarjeta">
+                <h3>Projects (3)</h3>
+            </div>
+            <!-- Proyectos -->
+            <div class="contenedor__main__proyectos">
+                <article class="proyecto__card tarjeta">
+                    <div class="proyecto__card__contenedor__imagen">
+                        <img src="./images/project01.jpg" alt="img-proyecto">
+                    </div>
+                    <div class="proyecto__card__contenedor__informacion">
+                        <ul class="proyecto__card__contenedor__informacion__hashtags">
+                            <li>#HTML</li>
+                            <li>#CSS</li>
+                            <li>#responsive</li>
+                        </ul>
+                        <h2 class="proyecto__card__contenedor__informacion__rotulo titulo-card">Recipe Blog</h2>
+                        <p class="proyecto__card__contenedor__informacion__descripcion descripcion-card">In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                        <div class="proyecto__card__contenedor__informacion__botones">
+                            <button class="boton-activo">Demo</button>
+                            <button>Code</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="proyecto__card tarjeta">
+                    <div class="proyecto__card__contenedor__imagen">
+                        <img src="./images/project02.jpg" alt="img-proyecto">
+                    </div>
+                    <div class="proyecto__card__contenedor__informacion">
+                        <ul class="proyecto__card__contenedor__informacion__hashtags">
+                            <li>#HTML</li>
+                            <li>#CSS</li>
+                            <li>#responsive</li>
+                        </ul>
+                        <h2 class="proyecto__card__contenedor__informacion__rotulo titulo-card">My Gallery</h2>
+                        <p class="proyecto__card__contenedor__informacion__descripcion descripcion-card">In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                        <div class="proyecto__card__contenedor__informacion__botones">
+                            <button class="boton-activo">Demo</button>
+                            <button>Code</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="proyecto__card tarjeta">
+                    <div class="proyecto__card__contenedor__imagen">
+                        <img src="./images/project03.jpg" alt="img-proyecto">
+                    </div>
+                    <div class="proyecto__card__contenedor__informacion">
+                        <ul class="proyecto__card__contenedor__informacion__hashtags">
+                            <li>#HTML</li>
+                            <li>#CSS</li>
+                            <li>#responsive</li>
+                        </ul>
+                        <h2 class="proyecto__card__contenedor__informacion__rotulo titulo-card">Checkout</h2>
+                        <p class="proyecto__card__contenedor__informacion__descripcion descripcion-card">In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                        <div class="proyecto__card__contenedor__informacion__botones">
+                            <button class="boton-activo">Demo</button>
+                            <button>Code</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Titulos Blogs -->
+            <div class="seccion__titulos tarjeta">
+                <h3>Blogs (1)</h3>
+            </div>
+            <!-- Blogss -->
+            <div class="contenedor__main__blogs">
+                <article class="card__blog tarjeta">
+                    <div class="card__blog__contenedor__informacion">
+                        <p class="card__blog__contenedor__informacion__categoria">Blog</p>
+                        <h2 class="card__blog__contenedor__informacion__rotulo titulo-card">How to<br> organize your<br> CSS</h2>
+                        <p class="card__blog__contenedor__informacion__descripcion descripcion-card">In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.<br><br>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                        <a href="#" class="card__blog__contenedor__informacion__firma">dev.to</a>
+                    </div>
+                    <div class="card__blog__contenedor__imagen">
+                        <img src="./images/blog01.jpg" alt="img-blog">
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+    <footer class="contenedor__footer">
+        <p>created by <span>username</span> - devChallenges.io</p>
+    </footer>
+</body>
+</html>
